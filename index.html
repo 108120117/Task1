@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body onload="getRandomColor();timeSet()">
+<div class="count">Number of Moves: <span class="cnt">0</span>
+<span class="timer"><span class="minutesC">Timer: 00</span>:<span class="secondsC">00</span></span></div>
 <div class="grid-contn" id="grid-container">
   <div class="grid-item"></div>
   <div class="grid-item"></div>
@@ -47,8 +49,6 @@
 </div>
 <div class="win"></div>
 <div class="score"></div>
-<div class="count">Number of Moves: <span class="cnt">0</span>
-<span class="timer"><span class="minutesC">Timer: 00</span>:<span class="secondsC">00</span></span></div>
 <div class="container">
   <button class="btn" id="btn-1" onclick="getRandomColor(); reset();">RESET GAME</button>
 </div>
